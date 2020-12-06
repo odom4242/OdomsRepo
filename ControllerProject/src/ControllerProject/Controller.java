@@ -19,7 +19,7 @@ public class Controller {
 			System.out.println("Greetings! Please choose an option from"
 					+ " below by entering its option number to get started");
 			System.out.print("(0)  Exit Program\n"
-							 + "(1)  Some function\n"
+							 + "(1)  Calculator\n"
 						     + "(2)  Some function\n"
 						     + "(3)  Some function\n"
 						     + "(4)  Some function\n"
@@ -46,7 +46,7 @@ public class Controller {
 			case "2":
 				// method call for option 1
 				// testing switch with print calls
-				System.out.println("Method call for option 2");
+				calculator();
 				break;
 			case "3":
 				// method call for option 1
@@ -102,6 +102,14 @@ public class Controller {
 				System.out.println("Invalid entry, continuing to menu");
 			}
 		}
+	}
+	
+	public static void calculator() {
+		//method body for calculator
+		
+		
+		
+		
 	}
 
 }
